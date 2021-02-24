@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    android:orientation="vertical"
+    android:background="@color/teal_700"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/fieldJustText"
+        android:text="Say hello!"
+        android:inputType="text"/>
+
+    <EditText
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/fieldName"
+        android:text="Your name"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/fieldPhone"
+        android:text="Your phone number"
+        android:inputType="phone"/>
+
+    <EditText
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/fieldNumber"
+        android:text="Lucky number"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/fieldEmail"
+        android:text="Email"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/fieldPassword"
+        android:text="Password"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/fieldDate"
+        android:text="10.10.10"
+        android:inputType="date"/>
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
